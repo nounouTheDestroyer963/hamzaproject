@@ -1,0 +1,159 @@
+/* Navigation bar list items */
+.navBar li {
+  float: left;
+}
+
+/* Navigation bar container */
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 2rem;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+/* Navigation bar links */
+.navBar li a {
+  padding: 8px;
+  background-color: #e6a5ec;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.7s;
+}
+
+/* Hover effect for nav links */
+.navBar li a:hover {
+  border-color: #e6a5ec;
+  background-color: #ffffff;
+  color: #e6a5ec;
+}
+
+/* Hide audio player */
+audio {
+  display: none;
+}
+
+/* Logo size */
+.logo {
+  width: 1cm;
+  height: 1cm;
+}
+
+/* Product container */
+.container {
+  margin: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2c0a4;
+  border-radius: 8px;
+  box-shadow: 12px 12px 5px rgba(0, 0, 0, 0.6);
+  width: 600px;
+  transition: 0.5s ease-in-out;
+}
+
+/* Hover effect to enlarge container */
+.container:hover {
+  width: 800px;
+}
+
+/* Product image */
+.productPhoto {
+  padding-top: 1rem;
+  width: 20%;
+  border-radius: 30%;
+  transition: 0.8s;
+}
+
+/* Hover effect on product image */
+.productPhoto:hover {
+  width: 40%;
+  height: auto;
+}
+
+/* Main content layout */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Icon row layout */
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+/* Background image */
+.bk-image {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Common banner styling */
+.bibou {
+  background-color: #ff5e5e;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Home section headline */
+#home > h1 {
+  color: #ffd151;
+  font-size: larger;
+  letter-spacing: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Contact section */
+#contact {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+  width: 120px;
+  height: 35px;
+  margin: 35px 0;
+  background-color: #f2c0a4;
+  border-radius: 17.5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Icons inside cards */
+.container img:not(.productPhoto) {
+  height: 32px;
+  width: 32px;
+}
+
+/* Label and input fields */
+label,
+input[type="text"],
+input[type="email"] {
+  background-color: #a3a2a2;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px 0;
+  color: #000;
+}
+
+/* Input hover effect */
+input:hover {
+  background-color: antiquewhite;
+}
